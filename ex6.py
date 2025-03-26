@@ -268,7 +268,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง...จุดที่ 2")
                 x, y, z = 0.3000, 0.3287, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน)
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -280,7 +280,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 3")
                 x, y, z = 0.3130, 0.3287, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน)
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -292,7 +292,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 4")
                 x, y, z = -0.080, 0.3287, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน)
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -304,7 +304,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 5")
                 x, y, z = -0.080, 0.2308, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน)
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -316,7 +316,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 6")
                 x, y, z = 0.3713, 0.2308, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน)
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -328,7 +328,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 7")
                 x, y, z = 0.3713, -0.1415, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน) ตำเเหน่งขวาสุด
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -340,7 +340,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 8")
                 x, y, z = 0.3713, 0.2467, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน) ตำเเหน่งขวาสุด
                 robot.move_linear(x,y,z,rx,ry,rz)
@@ -352,7 +352,7 @@ if __name__ == "__main__":
                     print(f"ตำแหน่งปัจจุบัน: x={current_pose[0]:.4f}, y={current_pose[1]:.4f}, z={current_pose[2]:.4f}, rx={current_pose[3]:.4f}, ry={current_pose[4]:.4f}, rz={current_pose[5]:.4f}")
                     
                 # ตัวอย่างการเคลื่อนที่เป็นเส้นตรง
-                print("กำลังเคลื่อนที่เป็นเส้นตรง...")
+                print("กำลังเคลื่อนที่เป็นเส้นตรง... จุดที่ 9")
                 x, y, z = 0.3130, 0.2467, 0.3500  # ตำแหน่ง (เมตร)
                 rx, ry, rz = 2.2185,-2.2185, 0.0006  # การหมุน (เรเดียน) ตำเเหน่งขวาสุด
                 robot.move_linear(x,y,z,rx,ry,rz)
